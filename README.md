@@ -1,7 +1,7 @@
 # emailtohtml
-## 日本語に特化した EML → HTML 変換ツール
+## 日本語に特化した EML / MSG → HTML 変換ツール
 
-Windows 向けの **EML / Outlook メールを HTML に変換するツール**です。  
+Windows 向けの **EML / MSG（Outlook）を HTML に変換するツール**です。  
 GUI で複数ファイルをまとめて変換でき、ドラッグ＆ドロップにも対応しています。  
 **信頼できるメール以外には絶対に使わないでください**
 
@@ -9,7 +9,7 @@ GUI で複数ファイルをまとめて変換でき、ドラッグ＆ドロッ�
 
 ## 🚀 主な機能
 
-### ✔ EML を HTML に変換
+### ✔ EML / MSG を HTML に変換
 - メール本文（HTML / TEXT）を正しく抽出
 - 文字化けしにくい日本語向けデコード処理
 - `<meta charset="UTF-8">` を自動挿入して表示崩れを防止
@@ -24,37 +24,29 @@ GUI で複数ファイルをまとめて変換でき、ドラッグ＆ドロッ�
 - 重複時は `banner(1).jpg` のように連番を付与
 - HTML 内の参照も自動でローカルパスに書き換え
 - GUI では ON/OFF 可能  
-- D&D では常に ON
+- D&D では常に OFF
 
 ### ✔ exe にドラッグ＆ドロップで一括変換
-- 複数の EML をまとめて変換
+- 複数の EML / MSG をまとめて変換
 
 ---
 
 ## 🖼 画面イメージ（GUI）
-![emltohtml](https://github.com/user-attachments/assets/81fa20c3-227a-40e0-8c5a-8e9f1e22ef64)
+![gui](https://github.com/user-attachments/assets/10afe341-ad54-45dc-9e87-635bad94e5af)
 
 ---
 
 ## 🔧 使い方
 
 ### 1. GUI で使う場合
-1. `EML 変換ツール.exe` を起動  
+1. `email2html.exe` を起動  
 2. 「ファイルを選択」で EML を追加  
 3. 必要なら出力先フォルダを指定  
 4. 「変換する」を押すだけ  
 
 ### 2. ドラッグ＆ドロップで使う場合
-`EML 変換ツール.exe` に EML をまとめてドロップすると  
+`email2html.exe` に EML / MSG をまとめてドロップすると  
 自動で変換が始まります。
-
----
-
-## 🆕 今後の予定
-- **MSG（Outlook .msg）対応**
-- HTML の整形オプション
-- ログ出力
-- 進捗バー
 
 ---
 
